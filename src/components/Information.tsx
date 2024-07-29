@@ -2,15 +2,7 @@ import { Heading, HStack, VStack, Stack, Divider, Box, Text, Link, Button, ListI
 
 
 function Information() {
-    const breakpoints = {
-        base: '0px',
-        sm: '400px',
-        md: '768px',
-        lg: '992px',
-        xl: '1200px',
-        '2xl': '1536px',
-      }
-      
+
     return (
         <>
         <Box w={{base: '95%', sm: '90%', md:'80%', lg:'60%' }} h = {{base: '40%', sm: '35%', md:'30%' }}>
